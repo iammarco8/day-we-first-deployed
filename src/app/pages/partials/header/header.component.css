@@ -1,0 +1,19 @@
+.parent{
+    display: flex;
+    justify-content: start;
+    padding-left: 5px;
+    padding-top: 20px;
+    height: 80px;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 10px;
+    color: #fff;
+}
+
+a:hover{
+    color: #7fff00;
+}

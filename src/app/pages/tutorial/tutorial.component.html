@@ -1,0 +1,23 @@
+<h1 [class]="headingClass">Welcome to HomePage</h1>
+1+1 = {{ 1+1 }}
+<p>Good Morning My Name is {{ "Marco" }}</p>
+<p>Good Morning My Name is {{ name }}</p>
+<p>Good Morning {{ students }}</p>
+<p>Good Morning {{ students[1] }}</p>
+<p>Good Morning {{ studentInfo() }}</p>
+<!-- <p>Who am i {{ studentInfo2(true) }}</p><br> -->
+<input type="button" value="save" (click)="buttonClick()">
+<h2>{{myEvent}}</h2>
+<input type="button" value="event tutorial" (mouseover)="mouseOver()" (mouseout)="mouseOut()" [class]="newClass">
+
+<div class="events" [hidden]="isHidden">
+    <h3>This is within the div</h3>
+</div>
+
+<!-- <div class="event2" [hidden]="boolVal" *ngIf="mouseOver"> -->
+
+<div class="event2" *ngIf="!boolVal">
+    <br><br>
+<!-- <div class="event2" *ngIf="isHidden"> -->
+    <h2>Second div</h2>
+</div>

@@ -1,0 +1,16 @@
+.mouseOver{
+    color:blue;
+    font-size: large;
+    display: ;
+}
+.heading{
+    color:red;
+}
+.events{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 120px;
+    height: 120px;
+    margin-top:20px ;
+}
